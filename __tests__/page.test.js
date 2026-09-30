@@ -18,12 +18,12 @@ describe("HomePage", () => {
 
   it("renders the contact email in the footer", () => {
     render(<HomePage />);
-    expect(screen.getByText(/bhattsameer4447@gmail.com/i)).toBeInTheDocument();
+    expect(screen.getByText(/aayushshahnirala@gmail.com/i)).toBeInTheDocument();
   });
 
   it("renders the correct phone number in the footer", () => {
     render(<HomePage />);
-    expect(screen.getByText(/\+1 \(800\) 555-0199/)).toBeInTheDocument();
+    expect(screen.getByText(/\+977 9863047550/)).toBeInTheDocument();
   });
 
   it("renders the current year in the footer copyright", () => {
